@@ -5,7 +5,7 @@ export function Hero(){
        <section className="sm:bg-[url('/bg.jpeg')]  bg-[url('/bg-sd.jpeg')] relative overflow-hidden text-zinc-50 bg-no-repeat bg-cover bg-center">
             <div className="container mx-auto py-16 md:pb-0 px-4 relative">
                 <article className="grid grid-cols-1 lg:grid-cols-2 gap-8 ">
-                    <div className="space-y-6 flex justify-center flex-col p-10">
+                    <div className="space-y-6 flex justify-center flex-col md:p-10">
                         <h1 className="text-3xl md:text-4xl font-bold leading-10">
                         Um local ideal para
                         desfrutar da terceira idade e aproveitar ao
