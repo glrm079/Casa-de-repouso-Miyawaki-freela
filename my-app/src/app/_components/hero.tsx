@@ -13,7 +13,7 @@ export function Hero(){
                         </h1>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi praesentium officia modi qui consequuntur a corrupti aspernatur laudantium perferendis veritatis?</p>
                         <div className="flex">
-                            <a className="bg-green-500 px-5 py-2 rounded font-semibold flex justify-center items-center" href="#">Entre em contato</a>
+                            <a className="bg-[#66a124] px-5 py-2 rounded font-semibold flex justify-center items-center" href="#">Entre em contato</a>
                         </div>
                     </div>
                 </article>
