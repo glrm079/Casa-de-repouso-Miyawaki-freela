@@ -1,10 +1,6 @@
 
 
-export function Footer(){{
-            
-           
-        
-        
+export function Footer(){{    
     return (
         <section className="overflow-hidden bg-[#2c520c]">
             <div className="container mx-auto relative">
@@ -29,7 +25,7 @@ export function Footer(){{
                        </div>
                 </article>
             </div>
-        </section>
+        </section>              
         
     );
     }
