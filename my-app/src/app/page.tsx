@@ -4,6 +4,7 @@ import {About} from"./_components/About";
 import {Diferenciais} from"./_components/Diferenciais";
 import {Equipe} from"./_components/Equipe";
 import { Unidades } from "./_components/Unidades";
+import { Footer } from "./_components/Footer";
 
 export default function Home() {
   return (
@@ -14,6 +15,7 @@ export default function Home() {
       <Diferenciais/>
       <Equipe/>
       <Unidades/>
+      <Footer/>
     </>
     
   );
