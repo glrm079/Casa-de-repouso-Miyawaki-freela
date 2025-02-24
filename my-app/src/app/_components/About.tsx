@@ -3,10 +3,19 @@ export function About(){
     return(
        <section className="bg-amber-50 py-8 lg:py-16 px-4 px">
             <div className="container mx-auto grid grid-cols-1 lg:grid-cols-2 gap-12  items-center ">
-                <div className="relative w-full  h-[400px] overflow-hidden rounded-3xl">
+                <div
+                data-aos="fade-right"
+                data-aos-offset="300"
+                data-aos-easing="ease-in-sine"
+                className="relative w-full  h-[400px] overflow-hidden rounded-3xl">
                     <Image  src="/imagem-sobre.png" alt="idosa sorindo" fill quality={100} className="object-cover priority hover:scale-110  duration-300" />
                 </div>
-                <div className="flex flex-col gap-6">
+                <div
+                data-aos="fade-left"
+                data-aos-anchor="#example-anchor"
+                data-aos-offset="500"
+                data-aos-duration="500"
+                className="flex flex-col gap-6">
                     <h1 className="text-4xl font-bold">
                         Sobre
                     </h1>

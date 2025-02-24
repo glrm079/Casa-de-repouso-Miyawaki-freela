@@ -16,10 +16,11 @@ export function Header() {
                     </div>
 
                     <nav className="hidden md:flex flex-row items-center gap-4">
-                        <a href="#">Home</a>
-                        <a href="#">Sobre</a>
-                        <a href="#">Serviços</a>
-                        <a href="#">Blog</a>
+                        <a href="#Hero">Home</a>
+                        <a href="#About">Sobre</a>
+                        <a href="#Diferenciais">Diferenciais</a>
+                        <a href="#Equipe">Equipe</a>
+                        <a href="#Unidades">Unidades</a>
                         <a className="bg-[#66a124] px-5 py-2 rounded font-semibold flex justify-center items-center" href="#">Entre em contato</a>
                     </nav>
 
@@ -55,12 +56,13 @@ export function Header() {
                     )}
                 </article>
                 {modal === true ? (
-                    <div>
+                    <div data-aos="fade-down">
                     <nav className="flex flex-col text-zinc-50 items-center gap-4 p-3">
-                       <a href="#">Home</a>
-                       <a href="#">Sobre</a>
-                       <a href="#">Serviços</a>
-                       <a href="#">Blog</a>
+                        <a href="@Hero">Home</a>
+                        <a href="#About">Sobre</a>
+                        <a href="#Diferenciais">Diferenciais</a>
+                        <a href="#Equipe">Equipe</a>
+                        <a href="#Unidades">Unidades</a>
                        <a className="bg-[#66a124] px-5 py-2 rounded font-semibold flex justify-center items-center" href="#">Entre em contato</a>
                    </nav>
                </div>):<>

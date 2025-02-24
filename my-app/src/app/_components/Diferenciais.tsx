@@ -36,7 +36,9 @@ import {
         </h1>
         <div className="container mx-auto flex flex-col md:flex-row justify-center gap-12">
           {info.map((item, index) => (
-            <Card key={index} className="w-full md:w-1/2 lg:w-1/3">
+            <Card
+              data-aos="fade-up"
+              key={index} className="w-full md:w-1/2 lg:w-1/3">
               <CardHeader className=" flex flex-col items-center">
                 <img className="w-16" src={item.imagem} alt="" />
               </CardHeader>

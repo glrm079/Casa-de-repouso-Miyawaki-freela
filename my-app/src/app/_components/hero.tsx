@@ -1,17 +1,6 @@
-import { useEffect } from "react";
-import AOS from "aos";
-import "aos/dist/aos.css";
-
-
 
 
 export function Hero(){
-    useEffect(() => {
-        AOS.init({
-          duration: 1000, // duração da animação em milissegundos
-          once: true, // anima apenas uma vez
-        });
-      }, []);
       
     return(
        <section className="sm:bg-[url('/bg.jpeg')]  bg-[url('/bg-sd.jpeg')] relative overflow-hidden text-zinc-50 bg-no-repeat bg-cover bg-center pt-20">
