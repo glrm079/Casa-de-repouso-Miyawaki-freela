@@ -4,7 +4,7 @@ export function Footer(){{
     return (
         <section className="overflow-hidden bg-[#2c520c]">
             <div className="container mx-auto relative">
-                <article className="flex flex-row justify-center gap-12 items-center px-5 sm:px-16 py-16 text-zinc-50">
+                <article className="flex flex-col md:flex-row justify-center gap-12 items-center px-5 sm:px-16 py-16 text-zinc-50">
                     <div className="flex flex-col gap-2 justify-center items-center">
                         <h1 className="text-2xl font-bold ">
                             Contato

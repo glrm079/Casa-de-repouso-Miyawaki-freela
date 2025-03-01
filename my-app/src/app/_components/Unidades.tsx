@@ -27,7 +27,7 @@ export function Unidades() {
                 <h1 className="text-4xl font-bold text-center sd:text-3xl ">
                     Nossas Unidades
                 </h1>
-                <div className="flex flex-col items-center gap-16 px-4 py-16">
+                <div data-aos="fade-up" className="flex flex-col items-center gap-16 px-4 py-16">
                     <nav className="flex flex-row justify-center text-zinc-700 gap-10 w-fit rounded-full p-1 text-sm shadow-lg">
                         <button 
                             className={`p-2 ${local === "casa" ? "bg-zinc-200 rounded-full font-bold" : ""}`}
