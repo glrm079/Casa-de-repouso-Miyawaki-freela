@@ -12,7 +12,7 @@ export function Header() {
             <div className="container mx-auto relative">
                 <article className="flex flex-row justify-between items-center px-5 sm:px-16 py-2 text-zinc-50">
                     <div>
-                        <img className="w-14" src="/logo.webp" alt="Logo" />
+                        <image className="w-14" src="/logo.webp" alt="Logo" />
                     </div>
 
                     <nav className="hidden md:flex flex-row items-center gap-4">

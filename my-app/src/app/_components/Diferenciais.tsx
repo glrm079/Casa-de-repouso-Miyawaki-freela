@@ -30,17 +30,23 @@ import {
   
   export function Diferenciais() {
     return (
-      <section className="bg-zinc-50 py-8 lg:py-16 px-4 overflow-hidden ">
+      <section className="bg-zinc-50 py-8 lg:py-16 px-4 overflow-hidden">
         <h1 className="text-center text-3xl md:text-4xl font-bold p-12">
-            Nossos Diferenciais
+          Nossos Diferenciais
         </h1>
         <div className="container mx-auto flex flex-col md:flex-row justify-center gap-12">
           {info.map((item, index) => (
             <Card
               data-aos="fade-up"
-              key={index} className="w-full md:w-1/2 lg:w-1/3">
-              <CardHeader className=" flex flex-col items-center">
-                <img className="w-16" src={item.imagem} alt="" />
+              key={index}
+              className="w-full sm:w-full md:w-1/2 lg:w-1/3"
+            >
+              <CardHeader className="flex flex-col items-center">
+                <img
+                  className="w-16"
+                  src={item.imagem}
+                  alt={item.titulo} // descriptive alt text
+                />
               </CardHeader>
               <CardContent className="flex flex-col gap-4 text-center">
                 <CardTitle>{item.titulo}</CardTitle>
@@ -52,3 +58,4 @@ import {
       </section>
     );
   }
+  

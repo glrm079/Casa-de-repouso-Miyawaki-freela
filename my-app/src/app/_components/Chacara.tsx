@@ -1,7 +1,7 @@
 "use client";
 import { useEffect, useCallback, useRef } from "react";
 import useEmblaCarousel from "embla-carousel-react";
-
+import Image from "next/image";
 
 export function Chacara() {
   const [emblaRef, emblaApi] = useEmblaCarousel({
@@ -51,42 +51,16 @@ export function Chacara() {
       {/* Carrossel de imagens */}
       <div className="overflow-hidden" ref={emblaRef}>
         <div className="flex">
-        <img
-                src="https://casaderepousomiyawaki.com.br/wp-content/webp-express/webp-images/uploads/2024/10/areaexterna2.4.jpeg.webp"
-                alt="Foto 1 da Chácara"
-                className="rounded-lg w-full  h-96 sm:h-[500px] object-cover flex-shrink-0"
+          {["areaexterna2.4.jpeg.webp", "areaexterna2.3-2.jpeg.webp", "areaexterna2.1.jpeg.webp", "animalunidade2.jpeg.webp", "quartounidade2.3.jpeg.webp", "salaunidade2.jpeg.webp", "salaunidade2.jpeg.webp"].map((image, index) => (
+            <Image
+              key={index}
+              src={`https://casaderepousomiyawaki.com.br/wp-content/webp-express/webp-images/uploads/2024/10/${image}`}
+              alt={`Foto ${index + 1} da Chácara`}
+              width={800}
+              height={500}
+              className="rounded-lg w-full h-96 sm:h-[500px] object-cover flex-shrink-0"
             />
-            <img
-                src="https://casaderepousomiyawaki.com.br/wp-content/webp-express/webp-images/uploads/2024/10/areaexterna2.3-2.jpeg.webp"
-                alt="Foto 2 da Chácara"
-                className="rounded-lg w-full h-96 sm:h-[500px] object-cover flex-shrink-0"
-            />
-            <img
-                src="https://casaderepousomiyawaki.com.br/wp-content/webp-express/webp-images/uploads/2024/10/areaexterna2.1.jpeg.webp"
-                alt="Foto 2 da Chácara"
-                className="rounded-lg w-full h-96 sm:h-[500px] object-cover flex-shrink-0"
-            />
-            <img
-                src="https://casaderepousomiyawaki.com.br/wp-content/webp-express/webp-images/uploads/2024/10/animalunidade2.jpeg.webp"
-                alt="Foto 2 da Chácara"
-                className="rounded-lg w-full h-96 sm:h-[500px] object-cover flex-shrink-0"
-            />
-             <img
-                src="https://casaderepousomiyawaki.com.br/wp-content/webp-express/webp-images/uploads/2024/10/quartounidade2.3.jpeg.webp"
-                alt="Foto 2 da Chácara"
-                className="rounded-lg w-full h-96 sm:h-[500px] object-cover flex-shrink-0"
-            />
-             <img
-                src="https://casaderepousomiyawaki.com.br/wp-content/webp-express/webp-images/uploads/2024/10/salaunidade2.jpeg.webp"
-                alt="Foto 2 da Chácara"
-                className="rounded-lg w-full h-96 sm:h-[500px] object-cover flex-shrink-0"
-            />
-             <img 
-                src="https://casaderepousomiyawaki.com.br/wp-content/webp-express/webp-images/uploads/2024/10/salaunidade2.jpeg.webp"
-                alt="Foto 2 da Chácara"
-                className="rounded-lg w-full h-96 sm:h-[500px] object-cover flex-shrink-0"
-            />
-
+          ))}
         </div>
       </div>
 
