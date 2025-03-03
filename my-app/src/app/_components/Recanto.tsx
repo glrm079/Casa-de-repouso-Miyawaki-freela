@@ -58,14 +58,29 @@ export function Recanto(){
         <div className="overflow-hidden" ref={emblaRef}>
             <div className="flex">
             <img
-                src="/bg.jpeg"
+                src="https://casaderepousomiyawaki.com.br/wp-content/webp-express/webp-images/uploads/2024/10/casaderepousomogidascruzes9.jpeg.webp"
                 alt="Foto 1 da Chácara"
-                className="rounded-lg w-full h-96 object-cover hover:scale-110 flex-shrink-0"
+                className="rounded-lg w-full  h-96 sm:h-[500px] object-cover flex-shrink-0"
             />
             <img
-                src="/bg.jpeg"
+                src="https://casaderepousomiyawaki.com.br/wp-content/webp-express/webp-images/uploads/2024/10/casaderepousomogidascruzes7.jpeg.webp"
                 alt="Foto 2 da Chácara"
-                className="rounded-lg w-full h-96 object-cover hover:scale-110 flex-shrink-0"
+                className="rounded-lg w-full h-96 sm:h-[500px] object-cover flex-shrink-0"
+            />
+            <img
+                src="https://casaderepousomiyawaki.com.br/wp-content/webp-express/webp-images/uploads/2024/10/casaderepousomogidascruzes3.jpeg.webp"
+                alt="Foto 2 da Chácara"
+                className="rounded-lg w-full h-96 sm:h-[500px] object-cover flex-shrink-0"
+            />
+            <img
+                src="https://casaderepousomiyawaki.com.br/wp-content/webp-express/webp-images/uploads/2024/10/casaderepousomogidascruzes4.jpeg.webp"
+                alt="Foto 2 da Chácara"
+                className="rounded-lg w-full h-96 sm:h-[500px] object-cover flex-shrink-0"
+            />
+             <img
+                src="https://casaderepousomiyawaki.com.br/wp-content/webp-express/webp-images/uploads/2024/10/casaderepousomogidascruzes10.jpeg.webp"
+                alt="Foto 2 da Chácara"
+                className="rounded-lg w-full h-96 sm:h-[500px] object-cover flex-shrink-0"
             />
             </div>
         </div>

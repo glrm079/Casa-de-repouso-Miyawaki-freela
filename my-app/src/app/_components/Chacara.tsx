@@ -51,16 +51,42 @@ export function Chacara() {
       {/* Carrossel de imagens */}
       <div className="overflow-hidden" ref={emblaRef}>
         <div className="flex">
-          <img
-            src="/bg.jpeg"
-            alt="Foto 1 da Chácara"
-            className="rounded-lg w-full h-96 object-cover hover:scale-110 flex-shrink-0"
-          />
-          <img
-            src="/bg.jpeg"
-            alt="Foto 2 da Chácara"
-            className="rounded-lg w-full h-96 object-cover hover:scale-110 flex-shrink-0"
-          />
+        <img
+                src="https://casaderepousomiyawaki.com.br/wp-content/webp-express/webp-images/uploads/2024/10/areaexterna2.4.jpeg.webp"
+                alt="Foto 1 da Chácara"
+                className="rounded-lg w-full  h-96 sm:h-[500px] object-cover flex-shrink-0"
+            />
+            <img
+                src="https://casaderepousomiyawaki.com.br/wp-content/webp-express/webp-images/uploads/2024/10/areaexterna2.3-2.jpeg.webp"
+                alt="Foto 2 da Chácara"
+                className="rounded-lg w-full h-96 sm:h-[500px] object-cover flex-shrink-0"
+            />
+            <img
+                src="https://casaderepousomiyawaki.com.br/wp-content/webp-express/webp-images/uploads/2024/10/areaexterna2.1.jpeg.webp"
+                alt="Foto 2 da Chácara"
+                className="rounded-lg w-full h-96 sm:h-[500px] object-cover flex-shrink-0"
+            />
+            <img
+                src="https://casaderepousomiyawaki.com.br/wp-content/webp-express/webp-images/uploads/2024/10/animalunidade2.jpeg.webp"
+                alt="Foto 2 da Chácara"
+                className="rounded-lg w-full h-96 sm:h-[500px] object-cover flex-shrink-0"
+            />
+             <img
+                src="https://casaderepousomiyawaki.com.br/wp-content/webp-express/webp-images/uploads/2024/10/quartounidade2.3.jpeg.webp"
+                alt="Foto 2 da Chácara"
+                className="rounded-lg w-full h-96 sm:h-[500px] object-cover flex-shrink-0"
+            />
+             <img
+                src="https://casaderepousomiyawaki.com.br/wp-content/webp-express/webp-images/uploads/2024/10/salaunidade2.jpeg.webp"
+                alt="Foto 2 da Chácara"
+                className="rounded-lg w-full h-96 sm:h-[500px] object-cover flex-shrink-0"
+            />
+             <img 
+                src="https://casaderepousomiyawaki.com.br/wp-content/webp-express/webp-images/uploads/2024/10/salaunidade2.jpeg.webp"
+                alt="Foto 2 da Chácara"
+                className="rounded-lg w-full h-96 sm:h-[500px] object-cover flex-shrink-0"
+            />
+
         </div>
       </div>
 
