@@ -5,13 +5,6 @@ import {Casa} from "./Casa"
 import {Chacara} from "./Chacara"
 import {Recanto} from "./Recanto"
 
-import {
-    Card,
-    CardContent,
-    CardHeader,
-    CardTitle,
-  } from "@/components/ui/card";
-
 import { useState } from "react";
 
 export function Unidades() {
