@@ -1,7 +1,7 @@
 "use client";
 import { useEffect, useCallback, useRef } from "react";
 import useEmblaCarousel from "embla-carousel-react";
-import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
+
 
 
 
