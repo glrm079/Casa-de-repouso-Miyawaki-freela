@@ -1,7 +1,7 @@
 "use client";
 import { useEffect, useCallback, useRef } from "react";
 import useEmblaCarousel from "embla-carousel-react";
-import Image from "next/image";
+// import Image from "next/image";
 
 export function Chacara() {
   const [emblaRef, emblaApi] = useEmblaCarousel({
@@ -50,7 +50,7 @@ export function Chacara() {
 
       {/* Carrossel de imagens */}
       <div className="overflow-hidden" ref={emblaRef}>
-        <div className="flex">
+        {/* <div className="flex">
           {["areaexterna2.4.jpeg.webp", "areaexterna2.3-2.jpeg.webp", "areaexterna2.1.jpeg.webp", "animalunidade2.jpeg.webp", "quartounidade2.3.jpeg.webp", "salaunidade2.jpeg.webp", "salaunidade2.jpeg.webp"].map((image, index) => (
             <Image
               key={index}
@@ -61,7 +61,7 @@ export function Chacara() {
               className="rounded-lg w-full h-96 sm:h-[500px] object-cover flex-shrink-0"
             />
           ))}
-        </div>
+        </div> */}
       </div>
 
       <h2 className="text-[#2c520c] font-bold text-center">

@@ -1,9 +1,11 @@
-import {
-    Card,
-    CardContent,
-    CardHeader,
-    CardTitle,
-  } from "@/components/ui/card";
+// import Image from "next/image";
+
+// import {
+//     Card,
+//     CardContent,
+//     CardHeader,
+//     CardTitle,
+//   } from "@/components/ui/card";
   
   const info = [
     {
@@ -35,25 +37,28 @@ import {
           Nossos Diferenciais
         </h1>
         <div className="container mx-auto flex flex-col md:flex-row justify-center gap-12">
-          {info.map((item, index) => (
+          {/* {info.map((item, index) => (
             <Card
               data-aos="fade-up"
               key={index}
               className="w-full sm:w-full md:w-1/2 lg:w-1/3"
             >
               <CardHeader className="flex flex-col items-center">
-                <img
-                  className="w-16"
-                  src={item.imagem}
-                  alt={item.titulo} // descriptive alt text
-                />
+                <Image
+                key={index}
+                src={item.imagem}
+                alt={item.titulo} 
+                width={800}
+                height={500}
+                className="rounded-lg w-full h-96 sm:h-[500px] object-cover flex-shrink-0"
+              />   
               </CardHeader>
               <CardContent className="flex flex-col gap-4 text-center">
                 <CardTitle>{item.titulo}</CardTitle>
                 <p>{item.descricao}</p>
               </CardContent>
             </Card>
-          ))}
+          ))} */}
         </div>
       </section>
     );

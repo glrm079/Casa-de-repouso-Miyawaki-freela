@@ -55,7 +55,7 @@ export function Recanto(){
             Recanto Santana
         </h1>
          {/* Carrossel de imagens */}
-        <div className="overflow-hidden" ref={emblaRef}>
+        {/* <div className="overflow-hidden" ref={emblaRef}>
             <div className="flex">
             <img
                 src="https://casaderepousomiyawaki.com.br/wp-content/webp-express/webp-images/uploads/2024/10/casaderepousomogidascruzes9.jpeg.webp"
@@ -83,7 +83,7 @@ export function Recanto(){
                 className="rounded-lg w-full h-96 sm:h-[500px] object-cover flex-shrink-0"
             />
             </div>
-        </div>
+        </div> */}
         <h2 className="text-[#2c520c] font-bold text-center">
             RUA DUARTE DE FREITAS, 274,
             MONTE LÍBANO,

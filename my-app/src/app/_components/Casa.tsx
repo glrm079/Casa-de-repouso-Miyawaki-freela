@@ -1,7 +1,7 @@
 "use client";
 import { useEffect, useCallback, useRef } from "react";
 import useEmblaCarousel from "embla-carousel-react";
-import Image from "next/image";
+// import Image from "next/image";
 
 export function Casa() {
   const [emblaRef, emblaApi] = useEmblaCarousel({
@@ -49,7 +49,7 @@ export function Casa() {
       <h1 className="text-center font-bold text-3xl">Casa de Repouso Miyawaki</h1>
       {/* Carrossel de imagens */}
       <div className="overflow-hidden" ref={emblaRef}>
-        <div className="flex">
+        {/* <div className="flex">
           {[ 
             "/uploads/2024/09/casaderepousofrente.jpeg.webp",
             "/uploads/2024/10/areaexterna1-1.jpeg.webp",
@@ -70,7 +70,7 @@ export function Casa() {
               height={500}
             />
           ))}
-        </div>
+        </div> */}
       </div>
       <h2 className="text-[#2c520c] font-bold text-center">
         RUA FRANCISCO MARTINS FEITOSA, 105, ALTO DO IPIRANGA, MOGI DAS CRUZES/SP

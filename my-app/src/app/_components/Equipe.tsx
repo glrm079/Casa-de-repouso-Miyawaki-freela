@@ -1,5 +1,9 @@
 "use client";
 
+
+// import Image from "next/image";
+
+
 import { useEffect, useCallback } from "react";
 import useEmblaCarousel from "embla-carousel-react";
 import {
@@ -115,7 +119,8 @@ export function Equipe() {
                 className="flex-[0_0_100%] min-w-0 md:flex-[0_0_calc(50%/3)]"
               >
                 <CardHeader className="flex flex-col items-center">
-                  <img className="w-16" src={item.image} alt={item.titulo} />
+                  {/* <Image  width={800}
+                height={500} src={item.image} alt={item.titulo} /> */}
                 </CardHeader>
                 <CardContent className="flex flex-col gap-4 text-center">
                   <CardTitle>{item.titulo}</CardTitle>

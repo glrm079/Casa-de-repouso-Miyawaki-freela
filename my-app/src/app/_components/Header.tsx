@@ -1,6 +1,7 @@
 "use client"; // <- Adicione esta linha no topo
 
 import { useState } from "react";
+// import Image from "next/image";
 
 export function Header() {
     const [modal, setModal] = useState(false);
@@ -12,7 +13,11 @@ export function Header() {
             <div className="container mx-auto relative">
                 <article className="flex flex-row justify-between items-center px-5 sm:px-16 py-2 text-zinc-50">
                     <div>
-                        <image className="w-14" src="/logo.webp" alt="Logo" />
+                        {/* <Image  width={800}
+                        height={500}  alt="Logo" /> */}
+                        <h1>
+                            Logo
+                        </h1>
                     </div>
 
                     <nav className="hidden md:flex flex-row items-center gap-4">

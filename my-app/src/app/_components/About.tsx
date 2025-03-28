@@ -1,4 +1,5 @@
 import Image from "next/image"
+
 export function About(){
     return(
        <section className="bg-amber-50 py-8 lg:py-16 px-4 px">
@@ -8,7 +9,7 @@ export function About(){
                 data-aos-offset="300"
                 data-aos-easing="ease-in-sine"
                 className="relative w-full  h-[400px] overflow-hidden rounded-3xl">
-                    <Image  src="/imagem-sobre.png" alt="idosa sorindo" fill quality={100} className="object-cover priority hover:scale-110  duration-300" />
+                    <Image src="/imagem-sobre.png" alt="idosa sorindo" fill quality={100} className="object-cover priority hover:scale-110  duration-300" />
                 </div>
                 <div
                 data-aos="fade-left"
@@ -20,7 +21,7 @@ export function About(){
                         Sobre
                     </h1>
                     <p>
-                    Em nossas 3 unidades, você entenderá a fusão perfeita da tradição e inovação. Nossas casas ficam localizadas nos bairros do Alto Ipiranga, Mogi Moderno e Parque Monte Líbano.  Cada unidade reflete nosso compromisso com o cuidado e o bem-estar dos idosos. Entendemos que cada idoso tem sua história e necessidade única, por isso oferecemos uma gama diversa de atividades terapêuticas.
+                     Em nossas 3 unidades, você entenderá a fusão perfeita da tradição e inovação. Nossas casas ficam localizadas nos bairros do Alto Ipiranga, Mogi Moderno e Parque Monte Líbano.  Cada unidade reflete nosso compromisso com o cuidado e o bem-estar dos idosos. Entendemos que cada idoso tem sua história e necessidade única, por isso oferecemos uma gama diversa de atividades terapêuticas.
                     </p>
                     <ul className=" flex gap-5 flex-col">
                         <li className="flex flex-row items-center gap-2">
